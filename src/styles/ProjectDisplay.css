@@ -1,0 +1,44 @@
+.project {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .project h1 {
+    margin-top: 50px;
+    color: #3e497a;
+    font-size: 35px;
+  }
+  /* .project img {
+    width: 700px;
+    border-radius: 10px;
+    max-height: fit-content;
+    max-width: fit-content;
+  } */
+
+  .one {
+    width: 700px;
+    border-radius: 10px;
+    max-height: fit-content;
+    max-width: fit-content;
+  }
+
+  .two {
+    width: 400px;
+    border-radius: 10px;
+    max-height: fit-content;
+    max-width: fit-content;
+  }
+  
+  .project p {
+    font-size: 40px;
+    color: #3e497a;
+  }
+  
+  .project svg {
+    font-size: 60px;
+    color: #3e497a;
+  }
