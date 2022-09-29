@@ -50,7 +50,7 @@ function Experience() {
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             >
                 <h3 className='vertical-timeline-element--title'>Universtiy of Southern California, Los Angeles, California, United States</h3>
-                <p>Masters Degree in Computer Science</p>
+                <p>Masters Degree in Computer Science - <b>Gpa: 3.6/4</b></p>
                 <p><b>Relevant courses:</b> Algorithms, Database Systems, Machine Learning for Data Science, Web Technologies, Adavanced Mobile Devices and Gaming Consoles, Multimedia System Design</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
@@ -61,7 +61,7 @@ function Experience() {
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             >
                 <h3 className='vertical-timeline-element--title'>Fr. Conceicao Institute of Technology, Mumabi Maharashtra, India</h3>
-                <p>Bachelors Degree in Computer Engineering</p>
+                <p>Bachelors Degree in Computer Engineering - <b>Gpa: 9.42/10</b></p>
                 <p><b>Relevant Courses: </b>Operating Systems, Data Structures, Machine Learning, Aritificial Intelligence, Computer Systems Architecture, Advanced Algorithms, Human Machine Interactions</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
