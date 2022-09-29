@@ -16,7 +16,7 @@ function Footer() {
             <GitHubIcon onClick={() => openInNewTab('https://github.com/gods-righteous-man')}/>
             <InstagramIcon onClick={() => openInNewTab('https://www.instagram.com/gaurav_makasare/')}/>
         </div>
-        <p> &copy; 2022 Gaurav R Makasare A.K.A Gods Rightous Man</p>
+        <p> &copy; 2022 Gaurav Makasare</p>
         
     </div>
   )

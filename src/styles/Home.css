@@ -22,6 +22,12 @@
     font-size: 80px;
     color: #e9d35b;
     height: 50px;
+    
+    
+  }
+
+  .prompt p{
+    padding-top: 10px;
   }
   
   .about .prompt {
