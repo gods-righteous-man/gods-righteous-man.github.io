@@ -22,6 +22,8 @@ function ProjectDisplay() {
         <p>
             <b>Skills</b>: {project.skills}
         </p>
+
+        { project.name === 'Endless Runner Inspired Unity Game' ? <b onClick = {() => openInNewTab(project.webgl)} style={{"cursor": "pointer", "padding":"20px", "fontSize":"25px"}}> <a>Play Game</a></b>: null}
         <GitHubIcon onClick = {() => openInNewTab(project.github)} style={{"cursor": "pointer"}}/>
         {console.log(isMobile)}
         
