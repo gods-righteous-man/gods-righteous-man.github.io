@@ -4,9 +4,22 @@ import Proj3 from '../assets/proj3.png';
 import Proj4 from '../assets/proj4.png';
 import Proj5 from '../assets/proj5.png';
 import Proj6 from '../assets/proj6.png';
-
-
+import Proj7 from "../assets/proj7.png";
 export const projectlist = [
+    {
+        name: "Image Segmentation using Java",
+        image: Proj7,
+        skills: "Java",
+        github: "https://github.com/gods-righteous-man/Team-Generator-App",
+        
+    },
+    {
+        name: "Endless Runner Inspired Unity Game",
+        image: Proj6,
+        skills: "Unity, C#",
+        github: "",
+        webgl:"https://play.unity.com/mg/other/webgl-builds-248938",
+    },
     {
         name: "Team Generator Application",
         image: Proj1,

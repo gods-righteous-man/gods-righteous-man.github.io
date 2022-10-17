@@ -6,6 +6,7 @@ import BC from "../assets/bc.pdf";
 import Transcript from "../assets/Transcript.pdf";
 import '../styles/Extras.css';
 
+
 function Extras() {
   return (
     <div className='maindiv'>
