@@ -10,7 +10,7 @@ export const projectlist = [
         name: "Image Segmentation using Java",
         image: Proj7,
         skills: "Java",
-        github: "https://github.com/gods-righteous-man/Team-Generator-App",
+        github: "",
         
     },
     {
