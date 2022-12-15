@@ -18,7 +18,7 @@ export const projectlist = [
         image: Proj6,
         skills: "Unity, C#",
         github: "",
-        webgl:"https://play.unity.com/mg/other/webgl-builds-248938",
+        webgl:"https://play.unity.com/mg/other/webgl-builds-286311",
     },
     {
         name: "Team Generator Application",
