@@ -5,7 +5,15 @@ import Proj4 from '../assets/proj4.png';
 import Proj5 from '../assets/proj5.png';
 import Proj6 from '../assets/proj6.png';
 import Proj7 from "../assets/proj7.png";
+import Proj9 from "../assets/proj9.png";
 export const projectlist = [
+    {
+        name: "Search Engine Correlation Analysis",
+        image: Proj9,
+        skills: "Python, BeautifulSoup",
+        github: "https://github.com/gods-righteous-man/Search-Engine-Comparator",
+
+    },
     {
         name: "Image Segmentation using Java",
         image: Proj7,
