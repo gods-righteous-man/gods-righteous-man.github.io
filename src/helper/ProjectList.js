@@ -18,14 +18,14 @@ export const projectlist = [
         name: "Image Segmentation using Java",
         image: Proj7,
         skills: "Java",
-        github: "",
+        github: "https://github.com/gods-righteous-man/csci-576-assigments/tree/main/Assign%202",
         
     },
     {
         name: "Endless Runner Inspired Unity Game",
         image: Proj6,
         skills: "Unity, C#",
-        github: "",
+        github: "https://github.com/cjalcala/csci_526_project",
         webgl:"https://play.unity.com/mg/other/webgl-builds-286311",
     },
     {
@@ -56,7 +56,7 @@ export const projectlist = [
         name: "Sentiment analysis on live twitter tweets",
         image: Proj5,
         skills: "Tweepy, Machine Learning, Python",
-        github: "",
+        github: "https://github.com/gods-righteous-man/Twitter-Sentiment-Analysis",
     },
     
 ];
