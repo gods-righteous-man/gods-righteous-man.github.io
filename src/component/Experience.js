@@ -12,7 +12,7 @@ function Experience() {
         <VerticalTimelineElement 
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                 className='vertical-timeline-element--education'
-                date = 'Aug 2022 - Present'
+                date = 'Aug 2022 - May 2023'
                 iconStyle={{background: "#e9d35b", color: "#fff" }}
                 icon = {<WorkIcon />}
             >
@@ -44,14 +44,30 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
                 className='vertical-timeline-element--education'
-                date = '2021 - Present'
+                date = 'Aug 2021 - May 2023'
                 iconStyle={{background: "#3e497a", color: "#fff" }}
                 icon = {<SchoolIcon />}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             >
                 <h3 className='vertical-timeline-element--title'>Universtiy of Southern California, Los Angeles, California, United States</h3>
-                <p>Masters Degree in Computer Science - <b>Gpa: 3.6/4</b></p>
+                <p>Masters Degree in Computer Science - <b>Gpa: 3.54/4</b></p>
                 <p><b>Relevant courses:</b> Algorithms, Database Systems, Machine Learning for Data Science, Web Technologies, Adavanced Mobile Devices and Gaming Consoles, Multimedia System Design</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement 
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                className='vertical-timeline-element--education'
+                date = 'Sep 2019 - Mar 2020'
+                iconStyle={{background: "#e9d35b", color: "#fff" }}
+                icon = {<WorkIcon />}
+            >
+                <h3 className='vertical-timeline-element--title'>Software Development Intern</h3>
+                <h4 className='vertical-timeline-element--subtitle'>Company: Eiosys Pvt Ltd</h4>
+                <p>Worked on a project for enhancing image quality for ecommerce products using Python and OpenCV.</p>
+                <ul>
+                    <li>Collaborated with a team of 3 to implement the Gaussian mixture model for image foreground and background segmentation.</li>
+                    <li>Implemented Google’s Neural Image Assessment algorithm (NIMA) for generating a feedback rating on images between 1 to 10 for testing the quality of results produced.</li>
+                    <li>Achieved 60 % improvement in image rating with NIMA.</li>
+                </ul>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
                 className='vertical-timeline-element--education'
@@ -61,7 +77,7 @@ function Experience() {
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             >
                 <h3 className='vertical-timeline-element--title'>Fr. Conceicao Institute of Technology, Mumabi Maharashtra, India</h3>
-                <p>Bachelors Degree in Computer Engineering - <b>Gpa: 9.42/10</b></p>
+                <p>Bachelors Degree in Computer Engineering - <b>Gpa: 3.81/4</b></p>
                 <p><b>Relevant Courses: </b>Operating Systems, Data Structures, Machine Learning, Aritificial Intelligence, Computer Systems Architecture, Advanced Algorithms, Human Machine Interactions</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 

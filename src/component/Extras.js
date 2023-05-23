@@ -3,7 +3,7 @@ import Resume from "../assets/Resume.pdf";
 import TC from "../assets/tc.pdf";
 import DV from "../assets/dv.pdf";
 import BC from "../assets/bc.pdf";
-import Transcript from "../assets/Transcripts.pdf";
+import Transcript from "../assets/Transcripts.png";
 import '../styles/Extras.css';
 import AWS from "../assets/aws.pdf";
 import Udemy from "../assets/udemy.pdf"
