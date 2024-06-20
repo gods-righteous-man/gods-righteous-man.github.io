@@ -12,6 +12,22 @@ function Experience() {
         <VerticalTimelineElement 
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                 className='vertical-timeline-element--education'
+                date = 'Jul 2023 - Present'
+                iconStyle={{background: "#e9d35b", color: "#fff" }}
+                icon = {<WorkIcon />}
+            >
+                <h3 className='vertical-timeline-element--title'>Software Engineer</h3>
+                <h4 className='vertical-timeline-element--subtitle'>Organization: State Street</h4>
+                <p>Working on FX Sales and Trading application</p>
+                <ul>
+                    <li>Responsible for developing trading applications in React Js.</li>
+                    <li>Maintaining the legacy applications built on the .NET Framework.</li>
+                    {/* <li>Provide</li> */}
+                </ul>
+            </VerticalTimelineElement>
+        <VerticalTimelineElement 
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                className='vertical-timeline-element--education'
                 date = 'Aug 2022 - May 2023'
                 iconStyle={{background: "#e9d35b", color: "#fff" }}
                 icon = {<WorkIcon />}
