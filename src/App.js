@@ -7,6 +7,7 @@ import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import ProjectDisplay from './component/ProjectDisplay';
 import Extras from './component/Extras';
+import LiveProject from './component/LiveProject'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/experience" element = {<Experience />}/>
           <Route path="/extras" element = {<Extras />}/>
           <Route path = "/project/:id" element = {<ProjectDisplay />} />
+          <Route path="/liveProject" element = {<LiveProject />}/>
           
           </Routes>
         <Footer />
