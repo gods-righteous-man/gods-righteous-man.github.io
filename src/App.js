@@ -8,6 +8,9 @@ import Footer from './component/Footer';
 import ProjectDisplay from './component/ProjectDisplay';
 import Extras from './component/Extras';
 import LiveProject from './component/LiveProject'
+import JobListings from './component/JobListings';
+import AdminRegister from './component/AdminRegister';
+import AddJobPost from './component/AddJobPost'
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           <Route path="/extras" element = {<Extras />}/>
           <Route path = "/project/:id" element = {<ProjectDisplay />} />
           <Route path="/liveProject" element = {<LiveProject />}/>
+          <Route path="/jobListing" element = {<JobListings />}/>
+          <Route path="/register" element = {<AdminRegister />}></Route>
+          <Route path="/post-job" element={<AddJobPost/>}></Route>
           
           </Routes>
         <Footer />
