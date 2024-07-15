@@ -43,7 +43,7 @@ function AddJobPost() {
 
   const handleLogout = () => {
     localStorage.removeItem('token'); // Clear the token from local storage
-    history('/register'); // Redirect to the login page
+    history('/login'); // Redirect to the login page
   };
 
   return (
