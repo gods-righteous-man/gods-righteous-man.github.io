@@ -17,7 +17,7 @@ function LiveProject() {
         setError(null)
 
         try {
-            const response = await fetch('http://54.176.140.223:6001/api/v2/cryptocurrency/quotes/latest?symbol=BTC,ETH,BNB,SOL,USDT&convert=USD', {
+            const response = await fetch('https://testrepoforexpress.vercel.app/api/cryptocurrency', {
                 method: 'GET',
                 headers: {
                     'X-CMC_PRO_API_KEY': apiKey,
