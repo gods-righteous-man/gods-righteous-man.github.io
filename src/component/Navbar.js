@@ -27,7 +27,7 @@ function Navbar() {
             <Link to="/extras">Extras</Link>
             <Link to="/liveProject">Live</Link>
             <Link to="/jobListing">Job Listing</Link>
-            <Link to= "/register">Register</Link>
+            <Link to= "/login">Login</Link>
         </div>
     </div>
   )

@@ -25,7 +25,7 @@ function App() {
           <Route path = "/project/:id" element = {<ProjectDisplay />} />
           <Route path="/liveProject" element = {<LiveProject />}/>
           <Route path="/jobListing" element = {<JobListings />}/>
-          <Route path="/register" element = {<AdminRegister />}></Route>
+          <Route path="/login" element = {<AdminRegister />}></Route>
           <Route path="/post-job" element={<AddJobPost/>}></Route>
           
           </Routes>

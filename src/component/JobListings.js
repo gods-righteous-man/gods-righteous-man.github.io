@@ -8,7 +8,7 @@ function JobListings() {
     useEffect(() => {
         const fetchJobs = async () => {
             try {
-                const response = await fetch('https://express-files-roan.vercel.app/api/jobs');
+                const response = await fetch('https://testrepoforexpress.vercel.app/api/jobs');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

@@ -11,7 +11,9 @@ function AdminRegister() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const url = 'https://express-files-roan.vercel.app/api/login';
+    const url = false
+      ? 'http://localhost:8080/api/register'
+      : 'https://testrepoforexpress.vercel.app/api/login';
 
     try {
       const response = await fetch(url, {

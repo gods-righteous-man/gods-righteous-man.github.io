@@ -14,7 +14,7 @@ function AddJobPost() {
     const token = localStorage.getItem('token');
 
     try {
-      const response = await fetch('https://express-files-roan.vercel.app/api/addJobs', {
+      const response = await fetch('https://testrepoforexpress.vercel.app/api/addJobs', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
