@@ -19,18 +19,14 @@ function LiveProject() {
         try {
             const response = await fetch('https://testrepoforexpress.vercel.app/api/cryptocurrency', {
                 method: 'GET',
-                headers: {
-                    'X-CMC_PRO_API_KEY': apiKey,
-                    // 'Accept': 'application/json',
-                    // 'Content-Type': 'application/json'
-                }
             }
 
             );
 
             if (!response.ok) {
-                throw new Error(`HTTP error! Status : ${response.status}`)
                 console.log("This is not working due to : ", response)
+                throw new Error(`HTTP error! Status : ${response.status}`)
+                
             }
 
             const data = await response.json();
