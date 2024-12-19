@@ -29,7 +29,7 @@ function Navbar() {
             <Link to="/jobListing">Job Listing</Link>
             <Link to= "/login">Admin</Link>
             <Link to="/news">News</Link>
-            <Link to="/subscribe">NewsLetter</Link>
+            <Link to="/subscribe">News Letter</Link>
 
         </div>
     </div>
