@@ -11,6 +11,8 @@ import LiveProject from './component/LiveProject'
 import JobListings from './component/JobListings';
 import AdminRegister from './component/AdminRegister';
 import AddJobPost from './component/AddJobPost'
+import News from './component/News';
+import SubscribeToNewsLetter from './component/SubscribeToNewsLetter';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/jobListing" element = {<JobListings />}/>
           <Route path="/login" element = {<AdminRegister />}></Route>
           <Route path="/post-job" element={<AddJobPost/>}></Route>
+          <Route path="/news" element = {<News/>}></Route>
+          <Route path='/subscribe' element={<SubscribeToNewsLetter/>}></Route>
           
           </Routes>
         <Footer />
