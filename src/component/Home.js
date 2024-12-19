@@ -14,7 +14,7 @@ function Home() {
         <div className='about'>
             <h2>Hi, my name is Gaurav</h2>
             <div className='prompt'>
-                <p>An aspiring software engineer with a passion for learning and creating</p>
+                <p>A software engineer with a passion for learning and creating</p>
                 <LinkedInIcon onClick={() => openInNewTab('https://www.linkedin.com/in/gaurav-makasare-780199149/')} style={{"cursor": "pointer"}}/>
                 <GitHubIcon onClick={() => openInNewTab('https://github.com/gods-righteous-man')} style={{"cursor": "pointer"}}/>
                 <a href='mailto: makasare@usc.edu'><EmailIcon /></a>
